@@ -1,0 +1,46 @@
+body {
+
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #6C5DD3;
+
+}
+
+.DashBoard {
+
+    display: flex;
+    border-radius: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    
+    background-color:rgb(217, 227, 235);
+    flex: 1;
+
+}
+
+.LeftBar {
+
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 243, 244);
+    border-radius: 2vh;
+
+}
+
+.LOGO {
+
+    height: 10vh;
+
+}
+
+.LeftNav {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
