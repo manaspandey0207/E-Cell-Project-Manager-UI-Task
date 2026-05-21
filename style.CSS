@@ -4,6 +4,7 @@ body {
     display: flex;
     height: 100vh;
     background-color: #6C5DD3;
+    width: 100%;
 
 }
 
@@ -165,8 +166,145 @@ body {
     width: 100%;
     gap: 17vh;
 
+}
+
+.Developer {
+
+    display: flex;
+    flex-direction: row;
+    margin: 2vh;
+    padding: 2ph;
+    align-items: center;
 
 }
+
+.devimg {
+
+    height: 24vh;
+
+}
+
+.devimg:hover{
+
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.Project1 {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1vh;
+    padding-top: 1vh;
+    padding-left: 8vh;
+    padding-right: 8vh;
+
+}
+
+.TotalProjects {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+    
+
+}
+
+.ProjectTxt {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(150, 154, 158);
+    font-size: smaller;
+
+}
+
+.NumDivTotal {
+
+    border-left: 3px solid blue;
+    text-align: center;
+    line-height: 1.1;
+
+}
+
+.NumDivTotal:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    text-decoration: underline;
+
+}
+
+.NumDivCompleted {
+
+    border-left: 3px solid lightgreen;
+    text-align: center;
+    line-height: 1.1;
+
+}
+
+.NumDivCompleted:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    text-decoration: underline;
+
+}
+
+.Project2 {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1vh;
+    padding-top: 1vh;
+    padding-left: 8vh;
+    padding-right: 8vh;
+
+}
+
+.RestProjects {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+
+}
+
+.NumDivProgress {
+
+    border-left: 3px solid rgb(223, 223, 49);
+    text-align: center;
+    line-height: 1.1;
+
+}
+
+.NumDivProgress:hover{
+
+    cursor: pointer;
+    transform: scale(1.2);
+    text-decoration: underline;
+
+}
+
+.NumDivLate {
+
+    border-left: 3px solid red;
+    text-align: center;
+    line-height: 1.1;
+    
+}
+
+.NumDivLate:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    text-decoration: underline;
+
+}
+
+
 
 
 
