@@ -16,8 +16,9 @@ body {
     margin-top: 5vh;
     margin-bottom: 5vh;
     
-    background-color:rgb(217, 227, 235);
+    background-color:rgb(202, 208, 215);
     flex: 1;
+    border-radius: 2vh;
 
 }
 
@@ -27,13 +28,15 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(241, 243, 244);
-    border-radius: 2vh;
+    border-radius: 1vh;
+    width: 10vh;
 
 }
 
 .LOGO {
 
     height: 10vh;
+    cursor: pointer;
 
 }
 
@@ -44,3 +47,43 @@ body {
     align-items: center;
 
 }
+
+
+.HorizontalDiv {
+
+    padding: 2vh;
+    display: flex;
+    background-color: rgb(241, 243, 244);
+    border-radius: 1vh;
+    width: 100%;
+    height: 8vh;
+
+}
+
+.HorizontalNav {
+
+    display: flex;
+    gap: 3vh;
+    
+}
+
+.Template{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(150, 154, 158);
+}
+
+.material-symbols-outlined {
+
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+
+}
+
+.material-symbols-outlined:hover {
+
+    transform: scale(1.2);
+    color: blue;
+
+}
+
