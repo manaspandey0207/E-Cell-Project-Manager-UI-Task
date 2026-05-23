@@ -141,6 +141,7 @@ body {
 
 .NewProjectDiv:hover{
 
+    cursor: pointer;
     transform: scale(1.2);
     background-color: rgb(34, 196, 228);
     text-decoration: underline;
@@ -162,7 +163,7 @@ body {
     background-color: rgb(241, 243, 244);
     border-radius: 1vh;
     padding: 2vh 3vh;
-    overflow-y: auto;           /* ← Important */
+    overflow-y: auto;           
     gap: 2vh;
 
 }
@@ -211,7 +212,6 @@ body {
     width: 100%;
     margin: 1vh;
     
-
 }
 
 .TotalProjects {
@@ -219,8 +219,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 8vh;
-
-    
 
 }
 
@@ -326,7 +324,7 @@ body {
 
 .MiddleContent {
 
-    flex: 1;                    /* Takes all remaining space */
+    flex: 1;                    
     display: flex;
     flex-direction: column;
     gap: 2vh;
@@ -341,12 +339,154 @@ body {
 
 }
 
-.ProjectCards{
+.ProjectCards {
 
     width: 70%;
     background-color: #CAD0D7;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    
 
 }
+
+.messages {
+
+    display: block;
+    width: 90%;
+    height: 30vh;
+    background-color: rgb(150, 154, 158);
+    margin: 0 auto;       
+    padding: 1vh;        
+    box-sizing: border-box; 
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.messagestxt{
+
+    color: black;
+    width: 100%;
+    text-align: center;
+
+}
+
+.ProjectLabel {
+
+    background-color: rgb(241, 243, 244);
+    padding-top: 1vh;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2vh;
+    padding-bottom: 1vh;
+
+
+}
+
+.listtxt {
+
+    font-size: x-small;
+}
+
+.CardDesign1 {
+
+    display: block;
+    background-color: rgb(241, 243, 244);
+    width: 20%;
+    height: 30vh;
+    border-radius: 2vh;
+    padding: 1vh;
+    border: 3px solid rgb(87, 227, 171);
+
+}
+
+.Cards  {
+
+    display: flex;
+    padding: 3%;
+    gap: 3%;
+
+}
+
+.CardDesign2 {
+
+    display: block;
+    background-color: rgb(241, 243, 244);
+    width: 20%;
+    height: 30vh;
+    border-radius: 2vh;
+    padding: 1vh;
+    border: 3px solid rgb(223, 223, 49);
+
+}
+
+.CardDesign3 {
+
+    display: block;
+    background-color: rgb(241, 243, 244);
+    width: 20%;
+    height: 30vh;
+    border-radius: 2vh;
+    padding: 1vh;
+    border: 3px solid red;
+
+}
+
+.CardDesign4 {
+
+    display: block;
+    background-color: rgb(241, 243, 244);
+    width: 20%;
+    height: 30vh;
+    border-radius: 2vh;
+    padding: 1vh;
+    border: 3px solid blue;
+
+}
+
+.Discussion {
+
+    height: 100%;
+
+}
+
+.CardDesign1:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 5px solid rgb(87, 227, 171);
+
+}
+
+.CardDesign2:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 5px solid rgb(223, 223, 49);
+
+}
+
+.CardDesign3:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 5px solid red;
+
+}
+
+.CardDesign4:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 5px solid blue;
+
+}
+
+
+
+
 
 
 
