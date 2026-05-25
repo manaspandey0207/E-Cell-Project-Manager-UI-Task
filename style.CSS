@@ -75,7 +75,7 @@ body {
     justify-content: space-between;
     border-bottom: 1px solid #e0e0e0;
     flex-shrink: 0; 
-    gap: 65vh;
+    gap: 165vhvh;
     
 }
 
@@ -121,7 +121,7 @@ body {
 .LeftDiv {
 
     display: flex;
-    gap: 3vh;
+    gap: 5vh;
     justify-content: space-between;
     align-items: center;
 
@@ -483,6 +483,10 @@ body {
     border: 5px solid blue;
 
 }
+
+
+
+
 
 
 
