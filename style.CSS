@@ -201,6 +201,7 @@ body {
 
     cursor: pointer;
     transform: scale(1.1);
+    filter: drop-shadow(4px 4px 1px blue)
 
 }
 
@@ -398,6 +399,7 @@ body {
     border-radius: 2vh;
     padding: 1vh;
     border: 3px solid rgb(87, 227, 171);
+    box-shadow: 10px 10px 5px rgb(87, 227, 171);
 
 }
 
@@ -418,6 +420,7 @@ body {
     border-radius: 2vh;
     padding: 1vh;
     border: 3px solid rgb(223, 223, 49);
+    box-shadow: 10px 10px 5px rgb(223, 223, 49);
 
 }
 
@@ -430,7 +433,8 @@ body {
     border-radius: 2vh;
     padding: 1vh;
     border: 3px solid red;
-
+    box-shadow: 10px 10px 5px red;
+    
 }
 
 .CardDesign4 {
@@ -442,6 +446,7 @@ body {
     border-radius: 2vh;
     padding: 1vh;
     border: 3px solid blue;
+    box-shadow: 10px 10px 5px blue;
 
 }
 
@@ -480,6 +485,13 @@ body {
     cursor: pointer;
     transform: scale(1.2);
     border: 5px solid blue;
+
+}
+
+
+.CardHeading {
+
+    
 
 }
 
