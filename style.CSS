@@ -47,6 +47,12 @@ body {
 
 }
 
+.LOGO:hover{
+
+    transform: scale(1.2);
+    
+}
+
 .LeftNav {
 
     display: flex;
